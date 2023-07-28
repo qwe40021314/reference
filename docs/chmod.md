@@ -16,7 +16,7 @@ $ chmod [options] <permissions> <file>
 
 ```shell
 $ chmod 755 foo.txt
-$ chmod +x quickref.py
+$ chmod +x quickref.py 给文件添加执行权限
 $ chmod u-x quickref.py
 $ chmod u=rwx,g=rx,o= quickref.sh
 ```
